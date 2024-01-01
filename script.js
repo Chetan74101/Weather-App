@@ -47,9 +47,10 @@ const fixeWeather1 = (city1) => {
 			temp2.innerHTML = data1.temp;
 			humidity2.innerHTML = data1.humidity;
 			wind_speed2.innerHTML = data1.wind_speed;
+			sunrise2.innerHTML = data1.sunrise;
 			cloud_pct2.innerHTML = data1.cloud_pct;
-			sunrise2.innerHTML = data1.sunrise
-			sunset2.innerHTML = data1.sunset
+			
+			sunset2.innerHTML = data1.sunset;
 		})
 		.catch(error => console.error(error));
 }
@@ -67,9 +68,10 @@ const fixeWeather2 = (city2) => {
 			temp3.innerHTML = data2.temp;
 			humidity3.innerHTML = data2.humidity;
 			wind_speed3.innerHTML = data2.wind_speed;
+			sunrise3.innerHTML = data2.sunrise;
 			cloud_pct3.innerHTML = data2.cloud_pct;
-			sunrise3.innerHTML = data2.sunrise
-			sunset3.innerHTML = data2.sunset
+			
+			sunset3.innerHTML = data2.sunset;
 		})
 		.catch(error => console.error(error));
 }
@@ -87,9 +89,10 @@ const fixeWeather3 = (city3) => {
 			temp4.innerHTML = data3.temp;
 			humidity4.innerHTML = data3.humidity;
 			wind_speed4.innerHTML = data3.wind_speed;
+			sunrise4.innerHTML = data3.sunrise;
 			cloud_pct4.innerHTML = data3.cloud_pct;
-			sunrise4.innerHTML = data3.sunrise
-			sunset4.innerHTML = data3.sunset
+			
+			sunset4.innerHTML = data3.sunset;
 		})
 		.catch(error => console.error(error));
 }
@@ -106,9 +109,10 @@ const fixeWeather4 = (city4) => {
 			temp5.innerHTML = data4.temp;
 			humidity5.innerHTML = data4.humidity;
 			wind_speed5.innerHTML = data4.wind_speed;
+			sunrise5.innerHTML = data4.sunrise;
 			cloud_pct5.innerHTML = data4.cloud_pct;
-			sunrise5.innerHTML = data4.sunrise
-			sunset5.innerHTML = data4.sunset
+			
+			sunset5.innerHTML = data4.sunset;
 		})
 		.catch(error => console.error(error));
 }
