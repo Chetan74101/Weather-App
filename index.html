@@ -23,15 +23,14 @@
 </style>
 
 <body>
-
     <body background="3D.png"style="backdrop-filter:blur(14px)" ;></body>
     <nav class="navbar navbar-expand-lg" style="backdrop-filter:blur(14px)" ;>
-        <div class="container-fluid ">&nbsp;&nbsp;&nbsp;
-            <a class="navbar-brand" href="#" style="font-size: 120px;font-weight: bold; color: rgb(27, 41, 48);text-decoration: underline;">
-                Weather Updates
-            </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div class="container-lg ">&nbsp;&nbsp;&nbsp;
+            <a class="navbar-brand" href="#" style="font-size:40px; color: rgb(27, 41, 48);">
+                𝐖𝐞𝐚𝐭𝐡𝐞𝐫 𝐔𝐩𝐝𝐚𝐭𝐞𝐬
+            </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <form class="d-flex" role="search" >            
-                <input id="city" class="form-control me-2" type="search" placeholder="Search" aria-label="Search" size="75%">
+                <input id="city" class="form-control me-2" type="search" placeholder="Search" aria-label="Search" size="20%">
                 <button class="btn btn-outline-dark" type="submit" id="submit"
                     style=" color: white;">Search</button> <!-- or(style="background-color: blue; color: white;) -->
             </form>
@@ -41,7 +40,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-left:5%;">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="font-size: 30px;">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="font-size: 15px;">
                     <li class="nav-item ">
                         <a class="nav-link active" aria-current="page" href="#">Home </a>
 
@@ -74,7 +73,7 @@
     </nav>
     <br><br>
     <div class="container"></div>
-    <h1 class="my-4 text-center" style="text-decoration: underline; font-size: 75px;color:rgb(15, 43, 65)">𝐖𝐞𝐚𝐭𝐡𝐞𝐫<span
+    <h1 class="my-4 text-center" style="text-decoration: underline; font-size: 75px;color:rgb(0, 6, 37)">𝐖𝐞𝐚𝐭𝐡𝐞𝐫<span
             id="cityName"></span></h1><br><br>
     <main>
         <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
@@ -134,64 +133,64 @@
                 </div>
             </div>
         </div>
-        <br><br><br><br>
-        <h2 class="display-6 text-center mb-4 " style="font-size:50px;text-decoration: underline;color:rgb(35, 5, 5)">
-            𝐖𝐞𝐚𝐭𝐡𝐞𝐫 𝐨𝐟 𝐜𝐢𝐭𝐲<br></h2>
-        <h3 class="display-6 text-center mb-4" style="color:rgb(6, 63, 93)">
+        <br><br><br><br><br>
+        <h2 class="display-6 text-center mb-4 " style="font-size:50px;text-decoration: underline;color:rgb(11, 5, 35)">
+            𝐖𝐞𝐚𝐭𝐡𝐞𝐫 𝐨𝐟 𝐜𝐢𝐭𝐲</h2>
+        <h3 class="display-6 text-center mb-4" style="color:rgb(4, 47, 70)">
             <div class="table-responsive">
-                <table class="table text-center border=black">
+                <table class="table">
                     <table style="table-layout:fixed;">
                         <thead>
                             <tr>
-                                <th style="width: 34%;font-size:30px"></th>
-                                <th style="width: 11%;font-size:30px">Temp ℃</th>
-                                <th style="width: 11%;font-size:30px">Humidity %</th>
-                                <th style="width: 11%;font-size:30px">Wind_speed km/hr</th>
-                                <th style="width: 11%;font-size:30px">Cloud_pct</th>
-                                <th style="width: 14%;font-size:30px">Sunset</th>
-                                <th style="width: 14%;font-size:30px">Sunrise</th>
+                                <th style="width: 25%;font-size:20px;color:rgb(6, 63, 93);"></th>
+                                <th style="width: 13%;font-size:20px;color:rgb(6, 63, 93);">Temp ℃</th>
+                                <th style="width: 11%;font-size:20px;color:rgb(6, 63, 93);">Humidity %</th>
+                                <th style="width: 16%;font-size:20px;color:rgb(6, 63, 93);">Wind_speed km/hr</th>
+                                <th style="width: 14%;font-size:20px;color:rgb(6, 63, 93);">Sunrise</th>
+                                <th style="width: 11%;font-size:20px;color:rgb(6, 63, 93);">Cloud_pct</th>
+                                <th style="width: 14%;font-size:20px;color:rgb(6, 63, 93);">Sunset</th>
                             </tr>
                         </thead>
 
 
                         <tbody>
                             <tr>
-                                <th scope="row" class="text-start;">◾&nbsp;Mumbai</th> <!-- from data 1 -->
-                                <td><span id="temp2">°</span></td>
-                                <td><span id="humidity2"></span></td>
-                                <td><span id="wind_speed2"></span></td>
-                                <td><span id="cloud_pct2"></span></td>
-                                <td><span id="sunrise2"></span></td>&nbsp;&nbsp;
-                                <td><span id="sunset2"></span></td>
+                                <th scope="row" class="text-md-center;">Mumbai</th> <!-- from data 1 -->
+                                <td style="color:aliceblue; font-size: 25px;"><span id="temp2"></span></td>
+                                <td style="color:aliceblue; font-size: 25px;"><span id="humidity2"></span></td>
+                                <td style="color:aliceblue; font-size: 25px;"><span id="wind_speed2"></span></td>
+                                <td style="color:aliceblue; font-size: 25px;"><span id="sunrise2"></span></td>&nbsp;&nbsp;
+                                <td style="color:aliceblue; font-size: 25px;"><span id="cloud_pct2"></span></td>
+                                <td style="color:aliceblue; font-size: 25px;"><span id="sunset2"></span></td>
                             </tr>
                             <tr>
-                                <th scope="row" class="text-start;">◾&nbsp;Pune</th> <!-- from data 2 -->
-                                <td><span id="temp3">°</span></td>
-                                <td><span id="humidity3"></span></td>
-                                <td><span id="wind_speed3"></span></td>
-                                <td><span id="cloud_pct3"></span></td>
-                                <td><span id="sunrise3"></span></td>&nbsp;&nbsp;
-                                <td><span id="sunset3"></span></td>
-                            </tr>
-
-                            <tr>
-                                <th scope="row" class="text-start;">◾&nbsp;Nagpur</th> <!-- from data 3-->
-                                <td><span id="temp4">°</span></td>
-                                <td><span id="humidity4"></span></td>
-                                <td><span id="wind_speed4"></span></td>
-                                <td><span id="cloud_pct4"></span></td>
-                                <td><span id="sunrise4"></span></td>&nbsp;&nbsp;
-                                <td><span id="sunset4"></span></td>
+                                <th scope="row" class="text-start;"style="text-start">Pune</th> <!-- from data 2 -->
+                                <td style="color:aliceblue; font-size: 25px;"><span id="temp3">°</span></td>
+                                <td style="color:aliceblue; font-size: 25px;"><span id="humidity3"></span></td>
+                                <td style="color:aliceblue; font-size: 25px;"><span id="wind_speed3"></span></td>
+                                <td style="color:aliceblue; font-size: 25px;"><span id="sunrise3"></span></td>&nbsp;&nbsp;
+                                <td style="color:aliceblue; font-size: 25px;"><span id="cloud_pct3"></span></td>                                
+                                <td style="color:aliceblue; font-size: 25px;"><span id="sunset3"></span></td>
                             </tr>
 
                             <tr>
-                                <th scope="row" class="text-start;">◾&nbsp;Nashik</th> <!-- from data 4 -->
-                                <td><span id="temp5">°</span></td>
-                                <td><span id="humidity5"></span></td>
-                                <td><span id="wind_speed5"></span></td>
-                                <td><span id="cloud_pct5"></span></td>
-                                <td><span id="sunrise5"></span></td>&nbsp;&nbsp;
-                                <td><span id="sunset5"></span></td>
+                                <th scope="row" class="text-start;">Nagpur</th> <!-- from data 3-->
+                                <td style="color:aliceblue; font-size: 25px;"><span id="temp4">°</span></td>
+                                <td style="color:aliceblue; font-size: 25px;"><span id="humidity4"></span></td>
+                                <td style="color:aliceblue; font-size: 25px;"><span id="wind_speed4"></span></td>
+                                <td style="color:aliceblue; font-size: 25px;"><span id="sunrise4"></span></td>&nbsp;&nbsp;
+                                <td style="color:aliceblue; font-size: 25px;"><span id="cloud_pct4"></span></td>         
+                                <td style="color:aliceblue; font-size: 25px;"><span id="sunset4"></span></td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row" class="text-start;">Nashik</th> <!-- from data 4 -->
+                                <td style="color:aliceblue; font-size: 25px;"><span id="temp5">°</span></td>
+                                <td style="color:aliceblue; font-size: 25px;"><span id="humidity5"></span></td>
+                                <td style="color:aliceblue; font-size: 25px;"><span id="wind_speed5"></span></td>
+                                <td style="color:aliceblue; font-size: 25px;"><span id="sunrise5"></span></td>&nbsp;&nbsp;
+                                <td style="color:aliceblue; font-size: 25px;"><span id="cloud_pct5"></span></td>
+                                <td style="color:aliceblue; font-size: 25px;"><span id="sunset5"></span></td>
                             </tr>
                         </tbody>
                     </table>
