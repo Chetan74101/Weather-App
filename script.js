@@ -36,7 +36,7 @@ submit.addEventListener("click", (e) => {
 	e.preventDefault()
 	getWeather(city.value)
 })
-
+getWeather()
 
 const fixeWeather1 = (city1) => {
 	fetch('https://weather-by-api-ninjas.p.rapidapi.com/v1/weather?city=' + city1, options)
